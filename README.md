@@ -34,135 +34,71 @@ We're committed to making this project even better in the future. Here's what yo
 - Customization options for your downloads.
 - User-suggested features and improvements.
 
-## Install Instructions
+===========================================
+          SETUP INSTRUCTIONS
+          YouTube Downloader
+===========================================
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Setup Instructions - YouTube Downloader</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
-        }
+1. INSTALL PYTHON
+-----------------
+- Ensure Python 3.8 or higher is installed on your computer.
+- Download it from the official website: https://www.python.org/downloads/
+- During installation, make sure to check the box "Add Python to PATH".
 
-        header {
-            background-color: #007bff;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-            font-size: 1.8rem;
-            font-weight: bold;
-        }
+2. INSTALL REQUIRED LIBRARIES
+-----------------------------
+- Open a terminal or command prompt.
+- Run the following command to install the necessary libraries:
 
-        .container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
+  pip install yt-dlp tk
 
-        h2 {
-            color: #007bff;
-            border-bottom: 2px solid #e2e6ea;
-            padding-bottom: 0.5rem;
-        }
+  yt-dlp: Required for downloading videos.
+  tkinter: Default Python library for building GUI applications.
 
-        p {
-            margin: 1rem 0;
-        }
+3. DOWNLOAD AND SAVE THE PROGRAM
+--------------------------------
+- Save the program code into a file named: youtube_downloader.py
+- Use any text editor such as:
+   - Visual Studio Code
+   - PyCharm
+   - Notepad++
 
-        code {
-            background-color: #e9ecef;
-            padding: 0.2rem 0.4rem;
-            border-radius: 4px;
-            font-family: "Courier New", monospace;
-        }
+4. RUN THE PROGRAM
+------------------
+- Open a terminal or command prompt.
+- Navigate to the folder where `youtube_downloader.py` is saved.
+- Run the program using the following command:
 
-        ul {
-            margin-left: 2rem;
-        }
+  python youtube_downloader.py
 
-        .note {
-            background-color: #fff3cd;
-            border: 1px solid #ffeeba;
-            padding: 1rem;
-            border-radius: 5px;
-            color: #856404;
-        }
+5. USING THE PROGRAM
+--------------------
+- Enter the YouTube video URL into the input field.
+- Select the video quality option:
+   - Best Quality
+   - Audio Only
+   - 720p
+   - Lowest Quality
+- Click the "Download" button to start downloading.
+- Watch the download progress displayed on the program.
 
-        footer {
-            text-align: center;
-            margin-top: 2rem;
-            font-size: 0.9rem;
-            color: #666;
-        }
-    </style>
-</head>
-<body>
-    <header>Setup Instructions for YouTube Downloader</header>
-    <div class="container">
-        <h2>1. Install Python</h2>
-        <p>Ensure Python 3.8 or higher is installed on your computer.</p>
-        <ul>
-            <li>Download Python from the <a href="https://www.python.org/downloads/" target="_blank">official Python website</a>.</li>
-            <li>During installation, check the box <strong>"Add Python to PATH"</strong>.</li>
-        </ul>
+6. TROUBLESHOOTING
+------------------
+- If you encounter missing module errors, install the module using:
 
-        <h2>2. Install Required Libraries</h2>
-        <p>Open a terminal or command prompt and run the following command to install dependencies:</p>
-        <code>pip install yt-dlp tk</code>
-        <ul>
-            <li><strong>yt-dlp</strong>: Required for downloading videos.</li>
-            <li><strong>tkinter</strong>: Default Python library for building GUI applications.</li>
-        </ul>
+  pip install <module-name>
 
-        <h2>3. Download and Save the Program</h2>
-        <p>Save the program code into a file named <code>youtube_downloader.py</code>. Use any text editor such as:</p>
-        <ul>
-            <li>Visual Studio Code</li>
-            <li>PyCharm</li>
-            <li>Notepad++</li>
-        </ul>
+- For example: pip install yt-dlp
 
-        <h2>4. Run the Program</h2>
-        <p>Navigate to the directory where the program file is saved, then run this command:</p>
-        <code>python youtube_downloader.py</code>
+7. SYSTEM REQUIREMENTS
+----------------------
+- Python: Version 3.8 or higher
+- Required Libraries: yt-dlp, tkinter
+- Program File: youtube_downloader.py
 
-        <h2>5. Using the Program</h2>
-        <ul>
-            <li>Enter the <strong>YouTube URL</strong> in the input field.</li>
-            <li>Select the desired video quality (Best Quality, Audio Only, 720p, or Lowest).</li>
-            <li>Click the <strong>Download</strong> button to start the process.</li>
-            <li>Watch the download progress and status updates.</li>
-        </ul>
-
-        <div class="note">
-            <strong>Note:</strong> If you encounter any missing module errors, install them using: <br>
-            <code>pip install &lt;module-name&gt;</code>
-        </div>
-
-        <h2>6. Summary of Requirements</h2>
-        <ul>
-            <li><strong>Python:</strong> Version 3.8 or higher</li>
-            <li><strong>Libraries:</strong> yt-dlp, tkinter</li>
-            <li><strong>Program File:</strong> youtube_downloader.py</li>
-        </ul>
-    </div>
-
-    <footer>
-        &copy; 2024 UltraDown YouTube Downloader | Developed by [Your Name]
-    </footer>
-</body>
-</html>
+===========================================
+      Thank you for using this program!
+===========================================
 
 
 
